@@ -13,6 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/admin', function () {
+// 	return redirect('admin');
+// });
+
+// Route::get('/', function () {
+//     // return ;
+// 	return view('welcome');
+// });
+
+Route::get('/login', function () {
+	return view('login');
+});
+
 Route::get('/', function () {
 	return redirect('admin');
 });
