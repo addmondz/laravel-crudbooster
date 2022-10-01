@@ -14,7 +14,7 @@
 
 </head>
 
-<body class="img js-fullheight bg-background" >
+<body class="img js-fullheight bg-background">
 	<section class="ftco-section">
 		<div class="container">
 			<div class="row justify-content-center">
@@ -26,15 +26,13 @@
 				<div class="col-md-6 col-lg-4">
 					<div class="login-wrap p-0">
 						<h3 class="mb-4 text-center">Have an account?</h3>
-						<form action="#" class="signin-form">
+						<!-- <form action="#" class="signin-form"> -->
 							<div class="form-group">
 								<input type="text" class="form-control" placeholder="Username" required>
 							</div>
 							<div class="form-group">
-								<input id="password-field" type="password" class="form-control" placeholder="Password"
-									required>
-								<span toggle="#password-field"
-									class="fa fa-fw fa-eye field-icon toggle-password"></span>
+								<input id="password-field" type="password" class="form-control" placeholder="Password" required>
+								<span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
 							</div>
 							<div class="form-group">
 								<button type="submit" class="form-control btn btn-primary submit px-3 btn-action">Sign In</button>
@@ -50,10 +48,10 @@
 									<a href="#" style="color: #fff">Forgot Password</a>
 								</div>
 							</div>
-						</form>
-						<p class="w-100 text-center">&mdash;  Or  &mdash;</p>
+						<!-- </form> -->
+						<p class="w-100 text-center">&mdash; Or &mdash;</p>
 						<div class="social d-flex text-center">
-							<a href="#" class="px-2 py-2 ml-md-1 rounded btn-action"><span class="ion-logo-twitter mr-2"></span>Register Now</a>
+							<a href="#" class="px-2 py-2 ml-md-1 rounded btn-action btn-submit-action"><span class="ion-logo-twitter mr-2"></span>Register Now</a>
 						</div>
 					</div>
 				</div>
