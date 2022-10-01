@@ -14,7 +14,6 @@
 
 </head>
 
-<!-- <body class="img js-fullheight" style="background-image: url(image/bg.jpg);"> -->
 <body class="img js-fullheight bg-background" >
 	<section class="ftco-section">
 		<div class="container">
@@ -54,8 +53,6 @@
 						</form>
 						<p class="w-100 text-center">&mdash;  Or  &mdash;</p>
 						<div class="social d-flex text-center">
-							<!-- <a href="#" class="px-2 py-2 mr-md-1 rounded"><span class="ion-logo-facebook mr-2"></span>Facebook</a> -->
-							<!-- <a href="#" class="px-2 py-2 ml-md-1 rounded"><span class="ion-logo-twitter mr-2"></span>Twitter</a> -->
 							<a href="#" class="px-2 py-2 ml-md-1 rounded btn-action"><span class="ion-logo-twitter mr-2"></span>Register Now</a>
 						</div>
 					</div>
@@ -65,8 +62,6 @@
 	</section>
 
 	<script src="login_resources/js/jquery.min.js"></script>
-	<script src="login_resources/js/popper.js"></script>
-	<script src="login_resources/js/bootstrap.min.js"></script>
 	<script src="login_resources/js/main.js"></script>
 
 </body>
