@@ -40,6 +40,8 @@
 
 .bg-background{
   background-image: url('../images/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 *,
@@ -67,6 +69,10 @@ main,
 nav,
 section {
   display: block;
+}
+
+.js-fullheight{
+  height: 100%;
 }
 
 body {
@@ -10650,7 +10656,7 @@ body {
   padding: 0;
 }
 body:after {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -10659,6 +10665,7 @@ body:after {
   background: #000;
   opacity: 0.3;
   z-index: -1;
+  height: 100vh;
 }
 
 a {

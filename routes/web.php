@@ -23,11 +23,15 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/login', function () {
-	return view('login');
-});
+    return view('login');
+})->name('login');
+
+Route::get('/welcome', function () {
+    return view('welcome');
+})->name('welcome');
 
 Route::get('/', function () {
-	return redirect('admin');
+    return redirect('admin');
 });
 
 Route::group(['middleware' => ['jwt.verify']], function() {
